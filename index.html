@@ -214,7 +214,7 @@
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="firstName" class="form-label">First name</label>
+              <label for="firstName" class="form-label">First name<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
               <div class="invalid-feedback">
                 Valid first name is required.
@@ -222,7 +222,7 @@
             </div>
 
             <div class="col-sm-6">
-              <label for="lastName" class="form-label">Last name</label>
+              <label for="lastName" class="form-label">Last name<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
               <div class="invalid-feedback">
                 Valid last name is required.
@@ -230,7 +230,7 @@
             </div>
 
             <div class="col-12">
-              <label for="username" class="form-label">Username</label>
+              <label for="username" class="form-label">Username<span style="color: red">*</span></label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
                 <input type="text" class="form-control" id="username" placeholder="Username" required>
@@ -249,7 +249,7 @@
             </div>
 
             <div class="col-12">
-              <label for="address" class="form-label">Address</label>
+              <label for="address" class="form-label">Address<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
               <div class="invalid-feedback">
                 Please enter your shipping address.
@@ -262,7 +262,7 @@
             </div>
 
             <div class="col-md-5">
-              <label for="country" class="form-label">Country</label>
+              <label for="country" class="form-label">Country<span style="color: red">*</span></label>
               <select class="form-select" id="country" required>
                 <option value="">Choose...</option>
                 <option>United States</option>
@@ -273,7 +273,7 @@
             </div>
 
             <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
+              <label for="state" class="form-label">State<span style="color: red">*</span></label>
               <select class="form-select" id="state" required>
                 <option value="">Choose...</option>
                 <option>California</option>
@@ -284,7 +284,7 @@
             </div>
 
             <div class="col-md-3">
-              <label for="zip" class="form-label">Zip</label>
+              <label for="zip" class="form-label">Zip<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="zip" placeholder="" required>
               <div class="invalid-feedback">
                 Zip code required.
@@ -325,7 +325,7 @@
 
           <div class="row gy-3">
             <div class="col-md-6">
-              <label for="cc-name" class="form-label">Name on card</label>
+              <label for="cc-name" class="form-label">Name on card<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="cc-name" placeholder="" required>
               <small class="text-body-secondary">Full name as displayed on card</small>
               <div class="invalid-feedback">
@@ -334,7 +334,7 @@
             </div>
 
             <div class="col-md-6">
-              <label for="cc-number" class="form-label">Credit card number</label>
+              <label for="cc-number" class="form-label">Credit card number<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="cc-number" placeholder="" required>
               <div class="invalid-feedback">
                 Credit card number is required
@@ -342,7 +342,7 @@
             </div>
 
             <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiration</label>
+              <label for="cc-expiration" class="form-label">Expiration<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
               <div class="invalid-feedback">
                 Expiration date required
@@ -350,7 +350,7 @@
             </div>
 
             <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
+              <label for="cc-cvv" class="form-label">CVV<span style="color: red">*</span></label>
               <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
               <div class="invalid-feedback">
                 Security code required
